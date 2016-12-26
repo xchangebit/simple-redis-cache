@@ -1,0 +1,17 @@
+{
+  "name": "simple-redis-cache",
+  "version": "0.1.0",
+  "description": "Simple module for retrieving pre-computed data",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "fakeredis": "1.0.3",
+    "mocha": "3.2.0",
+    "sinon": "1.17.6"
+  }
+}
